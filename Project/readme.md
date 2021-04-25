@@ -35,7 +35,7 @@ I've worked on **NaiveBayes Algorithms** which are **Bernoulli** and **GaussianN
 I uploaded all the test models of my group members on kaggle and due to internet failure I'm having issues on attaching .png files.
 
 # 3: Kanza Ahmad: 
-I've applied **Random Forest** and **Support Vector Classifier SVC** on 5x5,7x7 and 9x9 matrices with two filters which are mentioned above.
+I've applied **Random Forest** and **SVM** on 5x5,7x7 and 9x9 matrices with two filters which are mentioned above.
 Due to internet connectivity of my team members i've run all the code on google colab which took so much time to give the output.
 
 
@@ -69,9 +69,17 @@ It is used with continuous data,an assumption often taken is that the continuous
 Gaussian Naive Bayes supports continuous valued features and models each as conforming to a Gaussian distribution.
 
 
-# SVC:
+# SVM:
+**SVM** is a supervised machine learning classification algorithm.
+It divides the data such that errors are reduced.
+data points are divided correctly through different boundaries.
+It increases the distance from nearest data points.
+SVM is a lot better than logistic regression. It provides very high accuracy compared to LR.
 
 # Random Forest:
+Random Forest is a learning process which is used not only for classifications but also for regression.
+On data samples, decision tress are made by random forest to get the prediction from data and then selects the best solution.
+
 
 # Description of the code:
 After reading data from train.csv we labelled the data and then created a filter of an array of different sizes
